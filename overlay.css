@@ -1,0 +1,272 @@
+.overlay-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.overlay-overlay {
+  gap: 30px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 60px 30px;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.overlay-video1 {
+  width: 600px;
+  height: auto;
+}
+.overlay-block1 {
+  width:600px;
+  gap: 20px;
+  display: flex;
+  z-index: 1;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.overlay-title-text {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  font-size: 24px;
+  font-style: Display Bold;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overlay-content-text {
+  color: rgba(150, 157, 161, 1);
+  width: 600px;
+  height: auto;
+  font-size: 16px;
+  font-style: Display Regular;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overlay-video2 {
+  width: 600px;
+  height: auto;
+}
+.overlay-block2 {
+  width:600px;
+  gap: 25px;
+  display: flex;
+  z-index: 3;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.overlay-banner1 {
+  width: 600px;
+  height: auto;
+  border-radius: 30px;
+}
+.overlay-banner2 {
+  width: 600px;
+  height: auto;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 30px;
+}
+.overlay-codebox {
+  width: 600px;
+  height: 220px;
+  padding: 20px;
+  display: flex;
+  z-index: 2;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(244, 244, 244, 1);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.overlay-textcode {
+  height: 182px;
+  overflow: hidden;
+  color: rgba(150, 157, 161, 1);
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  animation-name: slideInUp;
+  animation-delay: 0s;
+  text-decoration: none;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.overlay-link {
+  display: contents;
+}
+.overlay-demolearningflow {
+  width: 600px;
+  height: auto;
+  border-radius: 30px;
+}
+.overlay-wirisset {
+  width:100%;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.overlay-banner3 {
+  width: 290px;
+  height: 200px;
+  border-color: rgba(217, 217, 217, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+}
+.overlayi-htp {
+  width: 139px;
+  height: 71px;
+}
+
+.overlay-item {
+  width: 600px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 1;
+  flex-direction: column;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.overlay-video3 {
+  width: 600px;
+  height: auto;
+}
+
+.overlay-infobox {
+  padding: 10px 15px 20px 20px;
+  width: 600px;
+  height: auto;
+  background-color: rgba(240, 240, 240, 1);
+}
+
+.overlay-infotext {
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+  gap:5px;
+  color: rgba(150, 157, 161, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.overlay-infotext-subject {
+  width:60%;
+}
+
+.overlay-infotext-date {
+  width:35%;
+  text-align: right;
+  float: right;
+}
+
+.overlay-infotext-involvement {
+  width:60%;
+}
+
+
+@media(max-width: 660px) {
+  .overlay-video1 {
+    width: 100%;
+    border-radius: 15px;
+  }
+  .overlay-video2 {
+    width: 100%;
+    border-radius: 15px;
+  }
+  .overlay-video3 {
+    width: 100%;
+  }
+  .overlay-banner1 {
+    width: 100%;
+    border-radius: 15px;
+  }
+  .overlay-banner2 {
+    width: 100%;
+    border-radius: 15px;
+  }
+  .overlay-block1 {
+    width: 100%;
+    height: auto;
+  }
+  .overlay-block2 {
+    width: 100%;
+    height: auto;
+  }
+  .overlay-content-text {
+    width: 100%;
+    height: auto;
+  }
+  .overlay-codebox {
+    width: 100%;
+    height: 240px;
+  }
+  .overlay-textcode {
+    height: 208px;
+    overflow: hidden;
+  }
+  .overlay-demolearningflow {
+    width: 100%;
+    border-radius: 15px;
+  }
+  .overlay-banner3 {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+  }
+  .overlay-item {
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  .overlay-infobox {
+    width: 100%;
+  }
+
+  .overlay-infotext {
+    font-size: 11px;
+  }
+
+}
+
+@media(max-width: 460px) {
+  .overlay-banner3 {
+    border-radius: 15px;
+  }
+  .overlay-infotext {
+  font-size: 10px;
+}
+}

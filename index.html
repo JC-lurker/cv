@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Curriculum vitae</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+      .player1-container {
+        width: 100%;
+        display: flex;
+        overflow: auto;
+        min-height: 100vh;
+        align-items: center;
+        flex-direction: column;
+      }
+      .player1-desktop {
+        width: 100%;
+        height: auto;
+        display: flex;
+        overflow: hidden;
+        align-items: center;
+        flex-shrink: 0;
+        flex-direction: column;
+        background-color: rgba(150, 157, 161, 1);
+      }
+      .player1-profile1 {
+        gap: 10px;
+        height: auto;
+        display: flex;
+        padding: 60px;
+        position: relative;
+        align-self: stretch;
+        align-items: center;
+        flex-shrink: 0;
+        flex-direction: column;
+        background-size: cover;
+        background-image: url("public/external/background1211-8byw-1500w.png");
+      }
+      .player1-name1 {
+        gap: 20px;
+        width: auto;
+        height: auto;
+        display: flex;
+        padding: 10px 30px;
+        z-index: 1;
+        align-items: center;
+        flex-shrink: 0;
+        flex-direction: column;
+      }
+      .player1-nametext {
+        color: rgba(255, 255, 255, 1);
+        width: 271px;
+        height: auto;
+        font-size: 48px;
+        font-style: Bold;
+        text-align: left;
+        font-family: Noto Sans;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 200px;
+        font-stretch: normal;
+        text-decoration: none;
+      }
+      .player1-roletext {
+        color: rgba(255, 255, 255, 1);
+        width: 132px;
+        height: auto;
+        font-size: 30px;
+        font-style: SemiBold;
+        text-align: left;
+        font-family: Noto Sans;
+        font-weight: 600;
+        line-height: normal;
+        font-stretch: normal;
+        text-decoration: none;
+      }
+      .player1-navlink {
+        display: contents;
+      }
+      .player1-tools {
+        width: 200px;
+        height: 35px;
+        text-decoration: none;
+      }
+      .player1-intro {
+        font-display: “swap”;
+        color: rgba(255, 255, 255, 1);
+        height: auto;
+        font-size: 16px;
+        align-self: stretch;
+        font-style: SemiBold;
+        text-align: center;
+        font-family: Noto Sans;
+        font-weight: 600;
+        line-height: normal;
+        font-stretch: normal;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-decoration: none;
+      }
+      .player1-profilepic {
+        top: 43px;
+        left: 0px;
+        right: 0px;
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        z-index: 2;
+        position: absolute;
+        border-radius: 50%
+      }
+    </style>
+    <link rel="preload" href="./animate.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./animate.css"></noscript>
+    <link
+      rel="shortcut icon"
+      href="public/favicon.svg"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="preload" href="./swiper.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./swiper.css"></noscript>
+  <!--<script defer data-domain="cv.player1.art" src="https://plausible.player1.art/js/script.js"></script>-->
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+    <link rel="preload" href="./index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="./index.css" rel="stylesheet" /></noscript>      
+
+      <div class="player1-container">
+        <div class="player1-desktop">
+          <div class="player1-profile1">
+            <main class="player1-name1">
+              <span class="player1-nametext"><span>Jimmy Chia</span></span>
+              <span class="player1-roletext"><span>Designer</span></span>              
+                <img
+                  alt="tool"
+                  title="I know it is tempting, but this does nothing."
+                  src="public/external/tools1211-ty2-200h.png"
+                  class="player1-tools"
+                />
+              <span class="player1-intro">
+                  Always prepared to tackle a wide range of tasks and projects,
+                  from creatively challenging production work to delivering
+                  innovative solutions for complex technical problems. My
+                  expertise includes crafting or prototyping visually appealing,
+                  user-friendly, and consistent user interface art assets, as
+                  well as designing marketing collaterals, courseware with
+                  media-rich content.
+                </span>
+                <span class="player1-intro">
+                  With several years of professional experience, I have gained
+                  in-depth knowledge of various design software, specialising in
+                  building responsive UI/UX design for Small and Large Screens.
+                  I am proficient in Photoshop, Illustrator, Figma, and After
+                  Effects, with a strong understanding of both frontend and
+                  backend development, ensuring I meet the unique requirements
+                  of each project. My capabilities includes a deep grasp of the
+                  intricate workings of technology.
+                </span>
+                <span class="player1-intro">I am available for hire.</span>
+              </span>
+            </main>
+            <img
+              alt="profile"
+              src="public/external/profile_pic.png"
+              class="player1-profilepic"
+            />
+          </div>
+          <div class="player1-work1">
+            <div class="player1-work2">
+              <span class="player1-textPP">Past Projects</span>
+            </div>
+            <div class="player1-line"></div>
+            <div class="player1-large">
+              <div
+                data-thq="slider"
+                data-loop="true"
+                data-autoplay="true"
+                data-navigation="false"
+                data-pagination="true"
+                data-pause-autoplay-on-mouse-enter="false"
+                data-disable-autoplay-on-interaction="false"
+                class="player1-slider swiper"
+              >
+                <div data-thq="slider-wrapper" class="swiper-wrapper">
+                  <div
+                    data-thq="slider-slide"
+                    class="player1-slider-slide1 swiper-slide"
+                  >
+                    <div alt="Open Overlay 1" class="openOverlay" data-overlay="overlay" data-url="overlay1.html" style="cursor: pointer;">
+                      <video
+                        src="public/video/i1.mp4"
+                        poster="public/external/i1.png"
+                        autoplay="true"
+                        muted="true"
+                        loop="true"
+                        preload="auto"
+                        playsinline="true"
+                        class="player1-image"
+                      ></video>
+                    </div>
+                  </div>
+                  <div
+                    data-thq="slider-slide"
+                    class="player1-slider-slide1 swiper-slide"
+                  >
+                    <div alt="Open Overlay 2" class="openOverlay" data-overlay="overlay" data-url="overlay2.html" style="cursor: pointer;">
+                      <img
+                        src="public/external/i2.png"
+                        alt="Open Overlay 2"
+                        class="player1-image"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    data-thq="slider-slide"
+                    class="player1-slider-slide1 swiper-slide"
+                  >
+                    <div alt="Open Overlay 3" class="openOverlay" data-overlay="overlay" data-url="overlay3.html" style="cursor: pointer;">
+                      <img
+                        src="public/external/i3.png"
+                        alt="image"
+                        class="player1-image"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    data-thq="slider-slide"
+                    class="player1-slider-slide1 swiper-slide"
+                  >
+                    <div alt="Open Overlay 4" class="openOverlay" data-overlay="overlay" data-url="overlay4.html" style="cursor: pointer;">
+                      <video
+                        src="public/video/i4.mp4"
+                        poster="public/external/i4.png"
+                        autoplay="true"
+                        muted="true"
+                        loop="true"
+                        preload="auto"
+                        playsinline="true"
+                        class="player1-image"
+                      ></video>
+                    </div>
+                  </div>
+                  <div
+                    data-thq="slider-slide"
+                    class="player1-slider-slide1 swiper-slide"
+                  >
+                    <div alt="Open Overlay 5" class="openOverlay" data-overlay="overlay" data-url="overlay5.html" style="cursor: pointer;">
+                      <img loading="lazy"
+                        src="public/external/i5.png"
+                        alt="image"
+                        class="player1-image"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    data-thq="slider-slide"
+                    class="player1-slider-slide1 swiper-slide"
+                  >
+                    <div alt="Open Overlay 6" class="openOverlay" data-overlay="overlay" data-url="overlay6.html" style="cursor: pointer;">
+                      <img loading="lazy"
+                        src="public/external/i6.png"
+                        alt="image"
+                        class="player1-image"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    data-thq="slider-slide"
+                    class="player1-slider-slide1 swiper-slide"
+                  >
+                    <div alt="Open Overlay 7" class="openOverlay" data-overlay="overlay" data-url="overlay7.html" style="cursor: pointer;">
+                      <img loading="lazy"
+                        src="public/external/i7.png"
+                        alt="image"
+                        class="player1-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-thq="slider-pagination"
+                  class="player1-slider-pagination swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal"
+                >
+                  <div
+                    data-thq="slider-pagination-bullet"
+                    class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                  ></div>
+                  <div
+                    data-thq="slider-pagination-bullet"
+                    class="swiper-pagination-bullet"
+                  ></div>
+                  <div
+                    data-thq="slider-pagination-bullet"
+                    class="swiper-pagination-bullet"
+                  ></div>
+                  <div
+                    data-thq="slider-pagination-bullet"
+                    class="swiper-pagination-bullet"
+                  ></div>
+                  <div
+                    data-thq="slider-pagination-bullet"
+                    class="swiper-pagination-bullet"
+                  ></div>
+                  <div
+                    data-thq="slider-pagination-bullet"
+                    class="swiper-pagination-bullet"
+                  ></div>
+                  <div
+                    data-thq="slider-pagination-bullet"
+                    class="swiper-pagination-bullet"
+                  ></div>
+                </div>
+                <div
+                  data-thq="slider-button-prev"
+                  class="player1-slider-button-prev swiper-button-prev"
+                ></div>
+                <div
+                  data-thq="slider-button-next"
+                  class="player1-slider-button-next swiper-button-next"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="player1cv">
+            <div class="player1-cv">
+              <div class="player1-name2">
+                <span class="player1-cvname">
+                Jimmy Chia
+                </span>
+                <a
+                  href="mailto:jimmy@player1.art?subject=Job Offer"
+                  class="player1-maillink"
+                >
+                  jimmy@player1.art
+                </a>
+              </div>
+              <div class="player1-education">
+                <span class="player1-cv-orange">
+                  Education
+                </span>
+                <div class="player1-edugrp">
+                  <div class="player1-edu1">
+                    <span class="player1-cv-black player1-cv-size">
+                    School of Audio Engineering
+                    </span>
+                    <span class="player1-cv-grey player1-cv-size">
+                        Diploma in Multimedia Design Graduated in Sep 2002
+                    </span>
+                  </div>
+                  <div class="player1-edu2">
+                    <span class="player1-cv-black player1-cv-size2">
+                      <span>Management Development</span>
+                      <br />
+                      <span>Institute of Singapore</span>
+                    </span>
+                    <span class="player1-cv-grey player1-cv-size2">
+                        Advance Diploma in Infomation Technology Graduated in
+                        Jan 2014
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="player1-skills">
+                <span class="player1-cv-orange">
+                  Skills &amp; Knowledge
+                </span>
+                <div class="player1-skill1">
+                  <span class="player1-cv-grey">
+                    <span>
+                      Experience in UI/UX Patterns and User experience centered
+                      design. 
+                      <br />
+                      Able to work in both PC or Mac enviroment.
+                    </span>
+                  </span>
+                  <span class="player1-cv-black">
+                    <span>Software proficiency</span>
+                  </span>
+                  <span class="player1-cv-grey">
+                    <span>
+                      1. Photoshop 2. Illustrator 3. Figma 4. After Effects
+                    </span>
+                  </span>
+                  <span class="player1-cv-black">
+                    <span>Platform management</span>
+                  </span>
+                  <span class="player1-cv-grey">
+                    <span>YouTube, Instagram, Facebook, Vimeo</span>
+                  </span>
+                  <span class="player1-cv-black">LMS</span>
+                  <span class="player1-cv-grey">
+                    <span>Wiris Quiz, Moodle, iSpring, Google Classroom, h5p</span>
+                  </span>
+                  <span class="player1-cv-black">
+                    <span>Coding proficiency</span>
+                  </span>
+                  <span class="player1-cv-grey">
+                    <span>Html, css, Javascript, Python</span>
+                  </span>
+                  <span style="width:100%;"><a href="public/cv_jimmychia_2024.pdf"><img style="float:right;" src="public/external/pdficon.png"></a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="player1-footer">
+            <div class="player1-copyright">
+              <img
+                alt="Logo1151"
+                src="public/external/logo1151-p07d.svg"
+                class="player1-logo"
+              />
+              <span class="player1-copyrighttext">
+                <span>
+                  © 2024-2025 Jimmy Chia @ player1.art. All rights reserved. No
+                  part of this work may be reproduced, distributed,
+                </span>
+                <span>
+                  or transmitted in any form or by any means without the prior
+                  written permission of the author.
+                </span>
+              </span>
+            </div>
+            <div class="player1-footer-line"></div>
+          </div>
+          <a
+            href="mailto:jimmy@player1.art?subject=Job Offer"
+            class="player1-link"
+          >
+            <img
+              alt="Messagebutton"
+              src="public/external/message1268-9n8q-200h.png"
+              class="player1-message"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="./index.umd.js" async></script>
+
+<script>
+  function openOverlay(event) {
+   // Prevent background scrolling
+   document.body.style.position = "fixed";
+   document.body.style.top = `-${window.scrollY}px`;
+
+   // Display the overlay
+   document.getElementById("overlay").style.display = "flex";
+   
+   // Get the data-url attribute from the clicked image
+   const url = event.currentTarget.getAttribute("data-url");
+
+   // Fetch and load content from the external URL
+   fetch(url)
+      .then(response => {
+         if (!response.ok) throw new Error("Failed to load content");
+         return response.text();
+      })
+      .then(html => {
+         document.getElementById("overlayContent").innerHTML = '<div id="closeOverlay"> </div>' + html;
+
+         // Add event listener for the close button
+         document.getElementById("closeOverlay").addEventListener("click", closeOverlay);
+      })
+      .catch(error => {
+         console.error(error);
+         document.getElementById("overlayContent").innerHTML = "<p>Error loading content.</p>";
+      });
+  }
+
+  function closeOverlay() {
+   // Hide the overlay
+   document.getElementById("overlay").style.display = "none";
+   document.getElementById("overlayContent").innerHTML = ""; // Clear content
+
+   // Re-enable background scrolling
+   const scrollY = document.body.style.top;
+   document.body.style.position = "";
+   document.body.style.top = "";
+   window.scrollTo(0, parseInt(scrollY || "0") * -1);
+  }
+
+// Add click event listeners to all images with the class "openOverlay"
+  document.querySelectorAll(".openOverlay").forEach(image => {
+  image.addEventListener("click", openOverlay);
+  });
+</script>
+
+<!-- Overlay Structures -->
+    <div id="overlay" class="overlay">
+       <div class="overlay-content" id="overlayContent">
+          <!-- Loaded content will appear here -->
+       </div>
+    </div>
+  </body>
+</html>
